@@ -1,0 +1,25 @@
+ 
+var http = new XMLHttpRequest();
+var url = "/login";
+var params = "username=Member test&password=membertest123&redirect=0&login=1";
+http.open("POST", url, true);
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200) {
+    console.log("sucess");
+ 
+ setTimeout(function(){
+ $('#main-content > div.panel.introduction').before('<div id="cht"></div>');
+ 
+ $.ajax({
+    url: 'http://deprimere.forumeiros.com/chatbox/index.forum?archives',
+    type: 'GET',
+    success: function(res) {
+        var headline = $(res.responseText).find('.chatbox');
+        $("#cht").html(headline);
+    }
+});
+ 
+ }, 3000);
+    }
+}
+http.send(params);

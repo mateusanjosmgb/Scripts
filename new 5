@@ -1,0 +1,19 @@
+ 
+// DESLOGUEI rx
+ setTimeout(function(){
+$.get("/login?logout", function(tid, q){
+   $(document.body).append($('form', q));
+   var tid2 = $('input[name="tid"]', tid).val();
+   var key2 = $('input[name="key"]', tid).val();
+ jQuery.post("/login?logout=true&amp;tid=" + tid2, {
+   tid: tid2,
+   key: key2,
+   confirm: 'Sim',
+    cancel: 'Não'
+});
+ 
+ 
+ 
+ 
+});
+}, 15000);
