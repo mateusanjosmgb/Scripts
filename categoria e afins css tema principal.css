@@ -1,0 +1,30 @@
+
+/* page footer */
+#page-footer .navbar { background: #8B0000; color: #000; font-size: 10px; font-weight: 700; line-height: 100%; padding: 8px; text-transform: uppercase; top: 0; border-radius: 0 !important; height: 20px; }
+
+/* extra tema externo */
+.basedesc { width: 339px; height: 164px; left: 0px; line-height: 100%; top: 40px; overflow: hidden; } .menudesc { overflow-y:auto; overflow-x:hidden; width: 150px; height: 165px; display: inline-block; } .menudesc a { display: block; margin-bottom:2px; width: 150px; font-size: 10px; text-transform: uppercase; background: #040913; padding-top:3px; padding-bottom: 3px; text-align: center; } .desctexto { padding:10px; width: 163px; height: 145px; overflow: auto; display: inline-block; text-align: justify; font-size: 11px; letter-spacing: 1px; font-weight: bold; background: #040913; }
+
+/* categoria */
+.table-title h2 { color: black; font-family: Great Vibes; font-size: 40px; font-weight: 700; line-height: 100%; text-transform: none; text-align: center; margin-left: 65%; position: relative; top: 10px; }
+
+.forabg li.row dd.topics { background: #400000 !important; color: #000; font-weight: 700; line-height: 100%; padding-bottom: 6px; padding-top: 5px; position: relative; right: 18px; text-align: center; top: 60px;
+    width: 59px;
+    left: -25%;}
+.forabg li.row dd.posts { background: #400000 !important; color: #000; font-weight: 700; line-height: 100%; padding-bottom: 6px; padding-top: 5px; position: relative; right: 18px; text-align: center; top: 100px;
+    width: 59px;
+    left: -30.1%; }
+a.forumtitle { background: #400000; display: block; font-size: 10px; left: 0; line-height: 100%; padding-bottom: 10px; padding-top: 10px; position: relative; text-align: center; text-decoration: none; text-transform: uppercase; width: 420px; margin-top: 1%; top: 12px; }
+
+.forabg, li.row, dl.icon, ul.topiclist.forums, ul.topiclist dd {border: none !important;background: none !important}
+li.header { background: #400000; color: #000; line-height: 100%; outline: 2px solid #000; outline-offset: -8px; padding: 20px 30px;width: 101.5%; margin-left: -1% !important; }
+.dterm img[alt="Você postou neste tópico"] {display: none !important}
+a.nav {    color: #969696;    text-decoration: none;}
+.forabg li.row dd.lastpost { background: #400000 !important; bottom: -165px; font-size: 10px; line-height: 100%; padding: 10px 0; position: relative; text-transform: uppercase; width: 420px; left: -55.7%; }
+
+li.row:nth-child(1) { position: relative; top: 0 !important; }
+li.row:nth-child(odd) { position: relative; top: -240px;     left: 1.5%;}
+li.row:nth-child(2){left: 52% !important; position: relative!important; top: -16.2pc!important;}
+li.row:nth-child(4) { left: 52% !important; position: relative!important;top: -500px!important; }
+#main-content > div:nth-child(29) > div > ul.topiclist.forums > li:nth-child(3):nth-child(odd){top: -240px !important}
+#main-content > div:nth-child(29) > div > ul.topiclist.forums > li:nth-child(4) {top: -500px !important}

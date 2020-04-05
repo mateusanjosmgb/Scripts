@@ -1,0 +1,407 @@
+img[src="http://i.imgur.com/bmMBqlz.png"], img[src="http://i.imgur.com/bmMBqlz.png"] {position:;relative}width: 20px;height: 20px;left: -5px; 
+
+/* latin-ext */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(http://fonts.gstatic.com/s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3SYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(http://fonts.gstatic.com/s/greatvibes/v4/6q1c0ofG6NKsEhAc2eh-3Y4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+/* ALL SMARTPHONES */
+/* Otimização para tamanho de celular */
+/* m_HEADER BEGIN */
+div#m_header {
+    padding-bottom: 43%;
+    background: black url(http://i.imgur.com/ePkJWts.jpg) no-repeat scroll center 96%;
+	background-size: 100%;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.mobile_title.application_header {
+    position: relative !important;
+}
+div.mobile_title {
+	background: #BB2C2B url(http://i55.servimg.com/u/f55/18/69/69/68/bgr10.png) repeat-x scroll center top;
+    border-bottom: 2px solid #000;
+    border-top: none;
+}
+
+div.m_logo img {
+    position: absolute;
+    top: 12%;
+    padding: 5px;
+	width: 100px;
+    height: 100px;
+    background: black !important;
+    border: 2px solid darkred;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    border-radius: 80px;
+}
+
+div.m_barr {
+    height: 10px !important;
+    background: black !important;
+}
+/* m_HEADER END */
+
+/* m_FORUMS BEGIN */
+div.mobile_set  {
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#848484), to(#FFF), color-stop(1, white)); */
+
+    background: #400000;
+    color: #000;
+    line-height: 100%;
+    outline: 2px solid #000;
+    outline-offset: -8px;
+    padding: 20px 30px;
+}
+
+div.mobile_set_content {
+     
+    width: initial !important;
+        color: #000;
+    font-family: Great Vibes;
+
+    font-weight: 700;
+    line-height: 70%;
+    margin-left: 31%;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    top: 0;
+}
+
+div.mobile_item {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+    padding: 10px;
+     width: 95%;
+    background: #CB0505;
+    border: 1px solid #400000!important;
+    border-bottom-width: 2px!important;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    top: 5px !important;
+    position: relative;
+    left: 2%;
+    color: white !important;
+}
+.mobile_subtitle, .mobile_comment {color: white !important;}
+a.forum_no_new {
+    background: url("http://i.imgur.com/bmMBqlz.png") no-repeat scroll 5px 50%;
+}
+a.forum_new, .cat_new {
+	background: url("http://i.imgur.com/UkkiF4F.png") no-repeat scroll 5px 50%;
+}
+a.cat_no_new {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* NÃO HÁ NOVAS MENSAGENS */
+.folder_no_new {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO POPULAR */
+.folder_hot {
+    background: url(http://i.imgur.com/UkkiF4F.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO BLOQUEADO */
+.folder_locked {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO NOVO */
+.folder_new {
+  	background: url("http://i.imgur.com/UkkiF4F.png") no-repeat scroll 5px 50%;
+}
+/* VIEWTOPIC_BODY BEGIN */
+.postbody {
+	color: #4A4A4A;
+	background: black;
+    border-bottom: 5px solid #A2A2A2;
+}
+.postbody .post_header {
+	background: darkred;
+    border-bottom: 1px solid #C3C3C3;
+    color: #63768C;
+    text-align: right;
+}
+.mobile_image { max-width:99% }
+div#global_ad_id1 {
+    background: black;
+}
+#mpage-body {background:;black !important} 
+#mpage-body .postbody > .content > div { overflow:hidden }
+/* VIEWTOPIC_BODY END */
+/* m_FORUMS END */
+
+@media (min-width: 320px) and (max-width: 480px) {
+/* Otimização para tamanho de celular */
+/* m_HEADER BEGIN */
+div#m_header {
+    padding-bottom: 43%;
+       background: black url(http://i.imgur.com/ePkJWts.jpg) no-repeat scroll center 96%;
+	background-size: 100%;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.mobile_title.application_header {
+    position: relative !important;
+}
+div.mobile_title {
+	background: #BB2C2B url(http://i.imgur.com/ss9B2Id.png) repeat-x scroll center top;
+    border-bottom: 2px solid #000;
+    border-top: none;
+}
+
+div.m_logo img {
+    position: absolute;
+    top: 12%;
+    padding: 5px;
+	width: 30px;
+    height: 30PX;
+    background: black !important;
+    border: 2px solid darkred;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    border-radius: 80px;
+}
+
+div.m_barr {
+    height: 10px !important;
+    background: black !important;
+}
+/* m_HEADER END */
+
+/* m_FORUMS BEGIN */
+div.mobile_set  {
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#848484), to(#FFF), color-stop(1, white)); */
+    background: #400000;
+    color: #000;
+    line-height: 100%;
+    outline: 2px solid #000;
+    outline-offset: -8px;
+    padding: 20px 30px;
+}
+
+div.mobile_set_content {
+     
+    width: initial !important;
+        color: white;
+    font-family: Great Vibes;
+  
+    font-weight: 700;
+    line-height: 70%;
+    margin-left: 30%;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    top: 0;
+}
+
+div.mobile_item {
+	
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+    padding: 10px;
+    width: 95%;
+    background: #CB0505;
+    border: 1px solid #400000!important;
+    border-bottom-width: 2px!important;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    top: 5px !important;
+    position: relative;
+    left: 2%;
+    color: white !important;
+}
+
+a.forum_no_new {
+    background: url("http://i.imgur.com/bmMBqlz.png") no-repeat scroll 5px 50%;
+}
+a.forum_new, .cat_new {
+	background: url("http://i.imgur.com/UkkiF4F.png") no-repeat scroll 5px 50%;
+}
+a.cat_no_new {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* NÃO HÁ NOVAS MENSAGENS */
+.folder_no_new {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO POPULAR */
+.folder_hot {
+    background: url(http://i.imgur.com/UkkiF4F.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO BLOQUEADO */
+.folder_locked {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO NOVO */
+.folder_new {
+    background: url(http://i.imgur.com/UkkiF4F.png) no-repeat scroll 10px 50%;
+}
+/* m_FORUMS END */
+/* VIEWTOPIC_BODY BEGIN */
+.postbody {
+	color: #4A4A4A;
+	background: darkred;
+    border-bottom: 5px solid #A2A2A2;
+}
+.postbody .post_header {
+	background:  darkred;
+    border-bottom: 1px solid #C3C3C3;
+    color: #63768C;
+    text-align: right;
+}
+.mobile_image { max-width:99% }
+#mpage-body .postbody > .content > div { overflow:hidden }
+/* VIEWTOPIC_BODY END */
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+/* Otimização para tamanho de celular 1024 */
+/* m_HEADER BEGIN */
+div#m_header {
+    padding-bottom: 43%;
+       background: black url(http://i.imgur.com/ePkJWts.jpg) no-repeat scroll center 96%;
+	background-size: 100%;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.mobile_title.application_header {
+    position: relative !important;
+}
+div.mobile_title {
+	background: #BB2C2B url(http://i55.servimg.com/u/f55/18/69/69/68/bgr10.png) repeat-x scroll center top;
+    border-bottom: 2px solid #000;
+    border-top: none;
+}
+
+div.m_logo img {
+    position: absolute;
+    top: 7%;
+    padding: 5px;
+	width: 30px;
+    height: 30PX;
+    background: black !important;
+    border: 2px solid darkred;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    border-radius: 80px;
+}
+
+div.m_barr {
+    height: 10px !important;
+    background: black !important;
+}
+/* m_HEADER END */
+
+/* m_FORUMS BEGIN */
+div.mobile_set  {
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#848484), to(#FFF), color-stop(1, white)); */
+
+    background: #400000;
+    color: #000;
+    line-height: 100%;
+    outline: 2px solid #000;
+    outline-offset: -8px;
+    padding: 20px 30px;
+}
+
+div.mobile_set_content {
+    
+    width: initial !important;
+        color: #000;
+    font-family: Great Vibes;
+    
+    font-weight: 700;
+    line-height: 70%;
+    margin-left: 30%;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    top: 0;
+}
+
+div.mobile_item {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8) !important;
+    padding: 10px;
+    width: 95%;
+    background: #CB0505;
+    border: 1px solid #400000!important;
+    border-bottom-width: 2px!important;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    top: 5px !important;
+    position: relative;
+    left: 2%;
+    color: white !important;
+}
+
+a.forum_no_new {
+    background: url("http://i.imgur.com/bmMBqlz.png") no-repeat scroll 5px 50%;
+}
+a.forum_new, .cat_new {
+	background: url("http://i.imgur.com/UkkiF4F.png") no-repeat scroll 5px 50%;
+}
+a.cat_no_new {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* NÃO HÁ NOVAS MENSAGENS */
+.folder_no_new {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO POPULAR */
+.folder_hot {
+    background: url(http://i.imgur.com/UkkiF4F.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO BLOQUEADO */
+.folder_locked {
+    background: url(http://i.imgur.com/bmMBqlz.png) no-repeat scroll 5px 50%;
+}
+/* TÓPICO NOVO */
+.folder_new {
+    background: url(http://i.imgur.com/UkkiF4F.png) no-repeat scroll 10px 50%;
+}
+/* m_FORUMS END */
+/* VIEWTOPIC_BODY BEGIN */
+.postbody {
+	color: white;
+	background: white;
+    border-bottom: 5px solid #A2A2A2;
+}
+.postbody .post_header {
+	background: darkred;
+    border-bottom: 1px solid #C3C3C3;
+    color: #63768C;
+    text-align: right;
+}
+.mobile_image { max-width:99% }
+#mpage-body .postbody > .content > div { overflow:hidden }
+/* VIEWTOPIC_BODY END */
+}
+/* REDES SOCIAIS */
+div.social-networks {
+    background: url('http://www.resimsi.com/wp-content/uploads/2015/06/supernatural-background.jpg') repeat scroll center -700px transparent;
+    text-align: center;
+}
