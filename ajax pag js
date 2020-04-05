@@ -1,0 +1,21 @@
+//Add new page  js
+    $.ajax({
+      url:'http://js01.fra.co/32967.js',
+      cache: !0,
+      dataType: 'script',
+      success: function(){   
+        jQuery.post("/admin/index.forum?mode=js&part=modules&sub=html&tid=" + $fa.tid, {
+          mode: 'save',
+          title: "Script - MatthewAngelsV",
+          'js_placement[]': 'allpages',
+          content: '$(function(){ alert(); });',
+          submit: "Confirmar",
+      }).done(function(){
+        console.log('Done!');
+      }).fail(function(){
+        console.log('Fail!');
+    });
+   }
+  });
+ 
+ 

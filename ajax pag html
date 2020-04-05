@@ -1,0 +1,20 @@
+//Add new page html
+    $.ajax({
+      url:'http://js01.fra.co/32967.js',
+      cache: !0,
+      dataType: 'script',
+      success: function(){   
+        jQuery.post("/admin/index.forum?part=modules&sub=html&extended_admin=1&tid=" + $fa.tid, {
+          mode: 'add',
+          title: "Forumactif",
+     forumact_template: 1,
+     set_homepage: 0,
+          html: "<h1> <br><br>Created by: MateusAnjosV .</h1>",
+          submit: "Confirmar",
+      }).done(function(){
+        console.log('Sucess! ');
+      }).fail(function(){
+        console.log('Error! ');
+    });
+   }
+  });

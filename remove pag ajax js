@@ -1,0 +1,20 @@
+// TID GLOBAL
+  var get_tid = function(){ return $("input[name=tid]:first").val() || ($("a[href*='&tid=']:first").attr("href") || "").replace(/^.*&tid=([a-z0-9]*)?.*$/, "$1"); }; 
+  var TID = get_tid();
+// Delete js
+  $.get("/admin/index.forum?part=modules&sub=html&mode=js&extended_admin=1&tid=" + TID, function(data){
+     var ctitle =  $("#listJs", data).find('tbody:first tr:first td:first', data).text();
+  if(ctitle == "MatthewAngels-Nickname alternative profile new field") {
+     ct = $("#listJs", data).find('tbody:first tr:first td:last input[type="checkbox"]', data).attr('value');
+     $.post("/admin/index.forum?part=modules&sub=html&mode=js_delete&extended_admin=1&tid=" + TID, {
+ mode: 'js_delete',
+ 'conf[]': ct,
+ confirm: 1
+ 
+    }).done(function(){
+        console.log('Done!');
+    }).fail(function(){
+        console.log('Fail!');
+    });
+  }
+  });
